@@ -12,7 +12,7 @@ import java.io.OutputStream;
  */
 public class Util {
     public static String[] shift(String args[]){
-        String [] ret = new String[args.length];
+        String [] ret = new String[args.length-1];
         for(int i=1;i<args.length;i++){
             ret[i-1] = args[i];
         }
