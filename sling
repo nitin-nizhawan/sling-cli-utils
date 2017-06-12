@@ -1,0 +1,4 @@
+export sling_host="localhost"
+export sling_port="4502"
+mvn clean install
+java -jar target/sling-cli-utils-1.0.0-SNAPSHOT.jar "$@"
